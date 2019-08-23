@@ -83,6 +83,7 @@
     height: 40px;
     color: #fff;
     font-size: 16px;
+    border-block-width: 50px;
 }
 .put{
    text-align: center;
@@ -90,3 +91,9 @@
 ::placeholder {  
     color: white; 
 } 
+#message{
+    margin-left: 50px;
+}
+.end{
+    text-align: center;
+}
