@@ -54,3 +54,10 @@
 #prod-content{
     display: none;
 }
+.portfolio h5{
+    text-align: center;
+}
+.portfolio{
+    margin-left: 10px;
+    margin-right: 15px;
+}
