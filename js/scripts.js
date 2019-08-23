@@ -19,12 +19,12 @@ $(document).ready(function() {
 });
 });
 $(document).ready(function() {
-  $("div#dev").click(function() {
-    $("div#dev-content").toggle();
-    $("div#dev").toggle();
+  $("div#product").click(function() {
+    $("div#prod-content").toggle();
+    $("div#product").toggle();
 });
-  $("div#dev-content").click(function() {
-    $("div#dev-content").toggle();
- ]  $("div#dev").toggle();
+  $("div#prod-content").click(function() {
+    $("div#prod-content").toggle();
+   $("div#product").toggle();
 });
 });
