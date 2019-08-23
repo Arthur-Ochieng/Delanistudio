@@ -18,3 +18,13 @@ $(document).ready(function() {
     $("div#dev").toggle();
 });
 });
+$(document).ready(function() {
+  $("div#dev").click(function() {
+    $("div#dev-content").toggle();
+    $("div#dev").toggle();
+});
+  $("div#dev-content").click(function() {
+    $("div#dev-content").toggle();
+ ]  $("div#dev").toggle();
+});
+});
