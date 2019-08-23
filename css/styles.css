@@ -48,3 +48,9 @@
 .contact{
     background-image: url(../IP3/assets/backgrounds/c_image.jpg);
 }
+#dev-content{
+    display: none;
+}
+#prod-content{
+    display: none;
+}
