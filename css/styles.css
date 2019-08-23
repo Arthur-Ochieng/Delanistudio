@@ -47,6 +47,8 @@
 }
 .contact{
     background-image: url(../IP3/assets/backgrounds/c_image.jpg);
+    background-size: 100%;
+    height: 250;
 }
 #dev-content{
     display: none;
@@ -60,4 +62,9 @@
 .portfolio{
     margin-left: 10px;
     margin-right: 15px;
+}
+.contact h5{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
 }
