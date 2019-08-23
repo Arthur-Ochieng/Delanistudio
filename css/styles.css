@@ -13,7 +13,7 @@
 }    
 .back p{
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 120%;
 }
 .mouse{
     margin-top: 80px;
@@ -35,4 +35,16 @@
     padding: 85px;
     color: azure;
     font-size: 80%;
+}
+.what{
+    text-align: center;
+}
+.col-md-4 {
+    text-align: center;
+}
+#content {
+    display: none;
+}
+.contact{
+    background-image: url(../IP3/assets/backgrounds/c_image.jpg);
 }
