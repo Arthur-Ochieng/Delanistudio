@@ -28,3 +28,4 @@ $(document).ready(function() {
    $("div#product").toggle();
 });
 });
+var name = document.getElementByid
