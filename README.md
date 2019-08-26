@@ -21,7 +21,7 @@ None.
 * Bootstrap - For styling the interface
 * jQuery - To easen use of JavaScript on your website
 ## Live site
-[]()
+[https://arthur-ochieng.github.io/Delanistudio/](https://arthur-ochieng.github.io/Delanistudio/)
 ## Support and contact details
 You can get to me through johnarthur016@gmail.com.
 ### License.
