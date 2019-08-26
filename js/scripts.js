@@ -28,44 +28,60 @@ $(document).ready(function() {
       alert("Hello  "+name+" Thank you for contacting us");
       event.preventDefault();
   });
-  $("#photo1").mouseover(function() {
-      $("#text1").show();
-    }).mouseout(function() {
-        $("#text1").hide();
+  $("#col-1").hover(function() {
+    $("#text1").fadeTo("slow",1);
+    $("#photo1").fadeTo("slow",0.4);
+    },function() {
+        $("#text1").fadeTo("slow",0);
+        $("#photo1").fadeTo("slow",1);
     });
-  $("#photo2").mouseover(function() {
-      $("#text2").show();
-    }).mouseout(function() {
-        $("#text2").hide();
+  $("#col-2").hover(function() {
+    $("#text2").fadeTo("slow",1);
+    $("#photo2").fadeTo("slow",0.4);
+    },function() {
+        $("#text2").fadeTo("slow",0);
+        $("#photo2").fadeTo("slow",1);
     });
-  $("#photo3").mouseover(function() {
-      $("#text3").show();
-    }).mouseout(function() {
-        $("#text3").hide();
+  $("#col-3").hover(function() {
+    $("#text3").fadeTo("slow",1);
+    $("#photo3").fadeTo("slow",0.4);;
+    },function() {
+        $("#text3").fadeTo("slow",0);
+        $("#photo3").fadeTo("slow",1);
     });
-  $("#photo4").mouseover(function() {
-      $("#text4").show();
-    }).mouseout(function() {
-        $("#text4").hide();
+  $("#col-4").hover(function() {
+    $("#text4").fadeTo("slow",1);
+    $("#photo4").fadeTo("slow",0.4);
+    },function() {
+        $("#text4").fadeTo("slow",0);
+        $("#photo4").fadeTo("slow",1);
     });
-  $("#photo5").mouseover(function() {
-      $("#text5").show();
-    }).mouseout(function() {
-        $("#text5").hide();
+  $("#col-5").hover(function() {
+    $("#text5").fadeTo("slow",1);
+    $("#photo5").fadeTo("slow",0.4);
+    },function() {
+        $("#text5").fadeTo("slow",0);
+        $("#photo5").fadeTo("slow",1);
     });
-  $("#photo6").mouseover(function() {
-      $("#text6").show();
-    }).mouseout(function() {
-        $("#text6").hide();
+  $("#col-6").hover(function() {
+    $("#text6").fadeTo("slow",1);
+    $("#photo6").fadeTo("slow",0.4);
+    },function() {
+        $("#text6").fadeTo("slow",0);
+        $("#photo6").fadeTo("slow",1);
     });
-  $("#photo7").mouseover(function() {
-      $("#text7").show();
-    }).mouseout(function() {
-        $("#text7").hide();
+  $("#col-7").hover(function() {
+    $("#text7").fadeTo("slow",1);
+    $("#photo7").fadeTo("slow",0.4);
+    },function() {
+        $("#text7").fadeTo("slow",0);
+        $("#photo7").fadeTo("slow",1);
     });
-  $("#photo8").mouseover(function() {
-      $("#text8").show();
-    }).mouseout(function() {
-        $("#text8").hide();
+  $("#col-8").hover(function() {
+    $("#text8").fadeTo("slow",1);
+    $("#photo8").fadeTo("slow",0.4);
+    },function() {
+        $("#text8").fadeTo("slow",0);
+        $("#photo8").fadeTo("slow",1);
     });
 });

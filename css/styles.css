@@ -109,44 +109,68 @@ body{
 .icon{
     margin-left: 270px;
 }
-.ul{
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-    margin: 0%;
-    padding: 0%;
-}
-.li{
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 270px;
-}
 textarea{
     background: transparent;
     color: #fff;
 }
 #text1{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
+    color: #fff;
 }
 #text2{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
 }
 #text3{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
 }
 #text4{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
 }
 #text5{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
 }
 #text6{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
 }
 #text7{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
 }
 #text8{
     display: none;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 100;
+}
+.fade{
+    opacity: 0;
 }
 
