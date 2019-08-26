@@ -23,7 +23,7 @@ $(document).ready(function() {
     $("div#prod-content").toggle();
    $("div#product").toggle();
   });
-  $("form").click(function() {
+  $("form").submit(function() {
       var name= $("input#name").val();
       alert("Hello  "+name+" Thank you for contacting us");
       event.preventDefault();

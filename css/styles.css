@@ -2,6 +2,7 @@
 body{
     width: 100;
     overflow-x: hidden;
+    font-family: 'Yantramanav', sans-serif;
 }
 .back{
     background-image: url(../css/h_img.jpg);
@@ -172,5 +173,9 @@ textarea{
 }
 .fade{
     opacity: 0;
+}
+.submit{
+    left: 50%;
+    text-align: center;
 }
 
