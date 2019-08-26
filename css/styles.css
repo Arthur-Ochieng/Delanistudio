@@ -61,6 +61,7 @@ body{
     height: 480px;
     position: relative;
     padding: 90px;
+    text-align: center;
 }
 #dev-content{
     display: none;
@@ -174,8 +175,3 @@ textarea{
 .fade{
     opacity: 0;
 }
-.submit{
-    left: 50%;
-    text-align: center;
-}
-
